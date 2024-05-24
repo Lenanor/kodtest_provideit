@@ -1,0 +1,19 @@
+.List {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .List {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-row-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .List {
+    grid-template-columns: minmax(0, 1fr);
+    grid-row-gap: 1rem;
+  }
+}

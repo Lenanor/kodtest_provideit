@@ -1,0 +1,25 @@
+.Button {
+  border-radius: 8px;
+  border: 1px solid #929090;
+  padding: 0.5em 0.8em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  color: #929090;
+  background-color: #fff;
+  text-transform: capitalize;
+  margin: 0.3rem;
+}
+
+.Button--active {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+}
+
+.Button:hover {
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+}
